@@ -8,6 +8,8 @@ function e(n) {
   else return 1.0 / factorial(n) + e(n - 1);
 }
 
+// --------------------------------------------------------------------
+
 function factorial_alt(n) {
   let prod = 1;
 
